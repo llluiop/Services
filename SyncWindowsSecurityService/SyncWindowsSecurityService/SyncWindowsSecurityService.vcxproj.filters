@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Frame">
+      <UniqueIdentifier>{2f337da9-c35d-46cc-8132-765cbcb4bf18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{fe960bed-241f-478e-8c0d-d14e1a2b6222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pipe">
+      <UniqueIdentifier>{bf5c8d2f-53ef-4fd3-bc6d-a7f31a9ddf1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{8ebe58d1-ee0b-4e72-8a92-58fbbc69dcee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json">
+      <UniqueIdentifier>{a7e4ab55-7592-493f-9b52-ddaf4f3729c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{821f4ff6-b53c-4bd3-9640-35a1c92f4e2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encrypted">
+      <UniqueIdentifier>{ebb0a092-e085-4c3b-8501-2e559179f538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encrypted\botan">
+      <UniqueIdentifier>{10a0d963-fca9-45fc-9e06-d1ed0d2c58fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Storage">
+      <UniqueIdentifier>{749297c8-0129-4c7d-9f98-73b7ba8268f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encrypted\key">
+      <UniqueIdentifier>{ea440846-a25f-4c00-b0fb-281670ba82f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inject">
+      <UniqueIdentifier>{876c15ab-74b1-482a-88ae-97ca3f4d2307}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Frame\WindowsServiceFrame.cpp">
+      <Filter>Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame\WindowsServiceThread.cpp">
+      <Filter>Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame\ServiceMain.cpp">
+      <Filter>Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger\BoostLog.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipe\PipeServerManager.cpp">
+      <Filter>Pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipe\WinNamedPipeServer.cpp">
+      <Filter>Pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\StrConvert.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Json\RecordJsonOperator.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+    <ClCompile Include="Json\RequestJsonOperator.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\MinifilterSvr.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\HeartBeat.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Encrypted\botan\botan_all.cpp">
+      <Filter>Encrypted\botan</Filter>
+    </ClCompile>
+    <ClCompile Include="storage\storage.cpp">
+      <Filter>Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipe\WinNamedPipe.cpp">
+      <Filter>Pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Utils.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\Strategy.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="driver\MsgHandler.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Encrypted\key\FileKey.cpp">
+      <Filter>Encrypted\key</Filter>
+    </ClCompile>
+    <ClCompile Include="Inject\injector.cpp">
+      <Filter>Inject</Filter>
+    </ClCompile>
+    <ClCompile Include="Encrypted\key\Cipher.cpp">
+      <Filter>Encrypted\key</Filter>
+    </ClCompile>
+    <ClCompile Include="Encrypted\encrypter.cpp">
+      <Filter>Encrypted</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Frame\WindowsServiceFrame.h">
+      <Filter>Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame\WindowsServiceThread.h">
+      <Filter>Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger\BoostLog.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipe\PipeServerManager.h">
+      <Filter>Pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipe\WinNamedPipeServer.h">
+      <Filter>Pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\StrConvert.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\RecordDefine.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\RecordJsonOperator.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\RequestJsonOperator.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\RequestDefine.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\MonitorDefine.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ScopeGuard.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\msg.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\WinService.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\MinifilterSvr.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\HeartBeat.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Encrypted\encrypter.h">
+      <Filter>Encrypted</Filter>
+    </ClInclude>
+    <ClInclude Include="Encrypted\botan\botan_all.h">
+      <Filter>Encrypted\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="Encrypted\botan\botan_all_internal.h">
+      <Filter>Encrypted\botan</Filter>
+    </ClInclude>
+    <ClInclude Include="Encrypted\md5sums.h">
+      <Filter>Encrypted</Filter>
+    </ClInclude>
+    <ClInclude Include="storage\storage.h">
+      <Filter>Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipe\WinNamedPipe.h">
+      <Filter>Pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Utils.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\Strategy.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\MsgHandler.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Encrypted\key\FileKey.h">
+      <Filter>Encrypted\key</Filter>
+    </ClInclude>
+    <ClInclude Include="Inject\injector.h">
+      <Filter>Inject</Filter>
+    </ClInclude>
+    <ClInclude Include="Encrypted\key\Cipher.h">
+      <Filter>Encrypted\key</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
